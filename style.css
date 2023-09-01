@@ -1,0 +1,69 @@
+#intro {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#sky {
+	object-fit: cover;
+	height: 800px;
+	width: 100%;
+	
+}
+
+#hello {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 80%;
+	font-size: 150px;
+	opacity: 85%;
+}
+
+#profile > div {
+	background-color: black;
+}
+
+#profile-pic {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+	border: 10px solid #055e81;
+	border-radius: 50%;
+	
+}
+
+#video-editing {
+	background-size: 200%;
+	background-position: 35% 0%;
+}
+
+#skills-title {
+	font-size: 60px;
+	color: #40554f;
+}
+
+@media (max-width: 992px) {
+	#webdev {
+		background-size: 100%;
+	}
+}
+
+@media (max-width: 645px) {
+	#hello {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 322px) {
+	#hello {
+		font-size: 20px;
+	}
+}
+
+.underline {text-decoration: underline;}
